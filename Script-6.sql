@@ -1,0 +1,11 @@
+SELECT * FROM LIBRARY l WHERE 등록번호 = 'CEM97094';
+
+SELECT COUNT(*) FROM LIBRARY l ; 
+
+SELECT *
+	FROM LIBRARY l 
+	WHERE 등록번호 = 'CEM97057'
+	AND 서명 = '로봇'
+	AND 저자 = '포터, 윌리엄';
+	
+SELECT * FROM DICT;
